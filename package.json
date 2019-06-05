@@ -1,7 +1,12 @@
 {
-  "name": "if-browser-component",
-  "version": "0.1.0",
+  "name": "@jharrilim/if-browser-component",
+  "version": "1.0.0",
   "description": "Renders only if in browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jharrilim/if-browser-component"
+  },
+  "readme": "https://github.com/jharrilim/if-browser-component/blob/master/README.md",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -12,7 +17,7 @@
   "keywords": [
     "browser",
     "ssr",
-    "gatsby",
+    "node",
     "react"
   ],
   "author": "Joseph Harrison-Lim",
@@ -31,5 +36,10 @@
     "react-dom": "^16.8.6",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.1"
-  }
+  },
+  "files": [
+    "/dist",
+    "/src",
+    "LICENSE"
+  ]
 }
