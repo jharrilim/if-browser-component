@@ -4,6 +4,12 @@
 
 Will render children only in browser; useful for components that make use of `window`.
 
+## Install
+
+```sh
+npm i @jharrilim/if-browser-component
+```
+
 ## Example
 
 ```js
