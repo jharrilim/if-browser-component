@@ -4,7 +4,7 @@
   "description": "Renders only if in browser",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -c tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json",
     "test": "npm run test:node && npm run test:browser",
     "test:node": "jest -c jest.config.node.js",
     "test:browser": "jest -c jest.config.browser.js"
