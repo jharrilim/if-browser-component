@@ -18,7 +18,7 @@ steps:
 - script: npm ci
   displayName: 'Install Dependencies'
 
-- script: npm run Build
+- script: npm run build
   displayName: 'Build'
 
 - script: npm t
