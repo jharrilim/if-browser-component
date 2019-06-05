@@ -6,7 +6,7 @@ Will render children only in browser; useful for components that make use of `wi
 
 ```js
 import React from 'react';
-import IfBrowser from '@jharrilim/if-browser';
+import IfBrowser from '@jharrilim/if-browser-component';
 
 const MyComponent = () => (
     <IfBrowser>
