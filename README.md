@@ -1,7 +1,8 @@
 # If Browser
-![npm (scoped)](https://img.shields.io/npm/v/@jharrilim/if-browser-component.svg?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/jharrilim/if-browser-component.svg?style=for-the-badge)
-![Azure DevOps builds](https://img.shields.io/azure-devops/build/josephharrisonlim/josephharrisonlim/1.svg?style=for-the-badge)
+
+[![npm]](https://www.npmjs.com/package/@jharrilim/if-browser-component)
+[![GitHub]](https://github.com/jharrilim/if-browser-component)
+[![Azure]](https://dev.azure.com/josephharrisonlim/josephharrisonlim/_build?definitionId=1)
 
 Will render children only in browser; useful for components that make use of `window`.
 
@@ -24,3 +25,7 @@ const MyComponent = () => (
 );
 
 ```
+
+[npm]: https://img.shields.io/npm/v/@jharrilim/if-browser-component.svg?style=for-the-badge
+[Github]:https://img.shields.io/github/license/jharrilim/if-browser-component.svg?style=for-the-badge
+[Azure]: https://img.shields.io/azure-devops/build/josephharrisonlim/josephharrisonlim/1.svg?style=for-the-badge
